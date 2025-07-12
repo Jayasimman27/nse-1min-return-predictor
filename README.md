@@ -1,4 +1,3 @@
-"# nse-1min-return-predictor" 
 
 ---
 
@@ -8,7 +7,7 @@
 
 ---
 
-## 🧠 Features Engineered
+##  Features Engineered
 
 Aggregated per minute per stock:
 - `num_trades`, `o`, `h`, `l`, `c`, `total_volume`
@@ -22,15 +21,14 @@ Target variable:
 
 ---
 
-## ✅ Tasks Completed
+##  Tasks Completed
 
-- ✅ Aggregated trade and quote data to 1-minute intervals
-- ✅ Engineered predictive features
-- ✅ Modeled using Linear Regression (`sklearn`)
-- ✅ Evaluated with:
-  - 📈 **Minute-wise correlation plot** (actual vs predicted returns)
-  - 📊 **Confusion matrix** for up/down classification
-  - 🔥 **Correlation matrix heatmap** across all companies
+-  Aggregated trade and quote data to 1-minute intervals
+-  Engineered predictive features
+-  Modeled using Linear Regression (`sklearn`)
+-  Evaluated with:
+  -  **Minute-wise correlation plot** (actual vs predicted returns)
+  -  **Correlation matrix heatmap** across all companies
 
 ---
 
@@ -39,17 +37,9 @@ Target variable:
 ### 1. Correlation over time  
 Measures how well predictions match real returns over each minute.
 
-### 2. Confusion Matrix  
-We binarized returns as:
-- `1` → Stock went **up**
-- `0` → Stock went **down/flat**
 
-### 3. Correlation Matrix  
+### 2. Correlation Matrix  
 Stock-wise return correlations across companies on the selected date.
 
 ---
 
-## 📦 Requirements
-
-```bash
-pip install -r requirements.txt
