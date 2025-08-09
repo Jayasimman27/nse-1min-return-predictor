@@ -10,7 +10,7 @@
 ##  Features Engineered
 
 Aggregated per minute per stock:
-- `num_trades`, `o`, `h`, `l`, `c`, `total_volume`
+- `num_trades`, `o`, `h`, `l`, `c`, `total_volume`,
 - `total_buy_cap`, `total_sell_cap`, `weighted_price`
 - `trade_imbalance_ratio`, `volume_imbalance_ratio`
 - `avg_spread`, `max_spread`, `min_spread`
