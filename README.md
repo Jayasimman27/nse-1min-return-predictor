@@ -21,11 +21,11 @@ Target variable:
 
 ---
 
-##  Tasks Completed
+##  Work
 
 -  Aggregated trade and quote data to 1-minute intervals
 -  Engineered predictive features
--  Modeled using Linear Regression (`sklearn`)
+-  Modeled using Linear Regression 
 -  Evaluated with:
   -  **Minute-wise correlation plot** (actual vs predicted returns)
   -  **Correlation matrix heatmap** across all companies
