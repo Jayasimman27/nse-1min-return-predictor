@@ -1,7 +1,7 @@
 
 ---
 
-## 🔍 Problem Statement
+## 🔍 Problem Statement..
 
 > Predict the **next-minute stock return** (ratio of time T+1 price to time T price) using market microstructure features such as volume, trade imbalance, spreads, and order book statistics.
 
